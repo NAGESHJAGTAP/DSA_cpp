@@ -15,8 +15,6 @@ public:
         right = NULL;
     }
 };
-
-
 void deleteleaf(Node* root, Node* target) {
     if (root == NULL) return;
     queue<Node*> q;
