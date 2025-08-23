@@ -29,8 +29,8 @@ int main() {
     head->next->next = new Node(3);
     head->next->next->next = head; 
     if (hasCycle(head))
-        cout << "";
+        cout << "Cycle detected";
     else
-        cout << "";
+        cout << "Cycle not detected";
     return 0;
 }

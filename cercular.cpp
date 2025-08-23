@@ -26,7 +26,6 @@ public:
         Node* newNode = new Node(val);
         if (head == NULL) {
             head = tail = newNode;
-            tail->next = head;
         } else {
             newNode->next = head;
             head = newNode;

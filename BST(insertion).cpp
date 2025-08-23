@@ -28,7 +28,6 @@ Node* insertion(Node* root, int val) {
 }
 void levelOrder(Node* root) {
     if (root == NULL) return;
-
     queue<Node*> q;
     q.push(root);
 
